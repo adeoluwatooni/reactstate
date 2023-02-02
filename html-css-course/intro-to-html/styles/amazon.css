@@ -1,0 +1,69 @@
+.buy-button{
+  background-color: rgba(255, 164, 28);
+  border: none;
+  width: 100px;
+  height: 36px;
+  font-weight: bold;
+  border-radius: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buy-button:hover{
+  opacity:0.8
+}
+
+.buy-button:active{
+  opacity:0.5;
+
+}
+
+.cart-button{
+  background-color: rgb(255, 216, 20);
+  width: 100px;
+  height: 36px;
+  font-weight: bold;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-button:hover{
+  opacity:0.8;
+}
+
+.cart-button:active{
+  opacity:0.5;
+}
+
+.shadow-button{
+background-color: green;
+color: white;
+border: none;
+font-weight: bold;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 9px;
+padding-top: 9px;
+cursor: pointer;
+}
+
+.shadow-button:hover{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-button:active{
+margin-left: 3px;
+margin-top: 3px;
+box-shadow: none;
+}
+
+.nike-shoes{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.amazon-link:hover{
+  Color: red;
+}
