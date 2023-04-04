@@ -16,12 +16,20 @@ class App extends React.Component{
       profession: 'Professional SSCE Candidate'
     },
     show: false,
-    interval: 0
+    count: 0
   }
   viewProfile = () =>{
     this.setState({
       ...this.state, show: !this.state.show
     })
+  }
+
+  componentDidMount = () => {
+    setInterval(()=> {
+      this.setState(prevState => ({
+        count : prevState.count + 0.5
+      }))
+    }, 1000)
   }
 
 
@@ -36,7 +44,7 @@ class App extends React.Component{
               {this.state.show ? 'Hide Profile' : 'Show Profile'}
             </button>
 
-            {this.state.person.interval}
+            Time: {this.state.count}
           </div>
           
           {this.state.show && (

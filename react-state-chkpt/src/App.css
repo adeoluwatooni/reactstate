@@ -26,13 +26,14 @@ h2{
 }
 
 .btnDiv{
-  text-align: center;
   margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 button{
   background-color:aliceblue;
   border: none;
   border-radius: 5px;
-  width: 10%;
+  width: 15%;
 }
